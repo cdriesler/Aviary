@@ -48,3 +48,5 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Flock\bin\Debug\A
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Flock\bin\Debug\Accord.Statistics.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Flock\bin\Debug\Accord.Math.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Flock\bin\Debug\Accord.Math.Core.xml
+C:\Users\cdrie\systems\Aviary\Flock\obj\Debug\Flock.csprojAssemblyReference.cache
+C:\Users\cdrie\systems\Aviary\Flock\obj\Debug\Flock.csproj.CoreCompileInputs.cache

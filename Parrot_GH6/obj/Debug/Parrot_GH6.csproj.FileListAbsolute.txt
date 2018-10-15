@@ -98,3 +98,7 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot_GH6\bin\Ac
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot_GH6\bin\Accord.Statistics.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot_GH6\bin\Accord.Math.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot_GH6\bin\Accord.Math.Core.xml
+C:\Users\cdrie\systems\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.csprojAssemblyReference.cache
+C:\Users\cdrie\systems\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.Properties.Resources.resources
+C:\Users\cdrie\systems\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.csproj.GenerateResource.cache
+C:\Users\cdrie\systems\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.csproj.CoreCompileInputs.cache

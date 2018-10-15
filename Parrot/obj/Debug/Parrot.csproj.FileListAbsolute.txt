@@ -421,3 +421,7 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot\bin\Debug\
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot\bin\Debug\Accord.Statistics.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot\bin\Debug\Accord.Math.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Parrot\bin\Debug\Accord.Math.Core.xml
+C:\Users\cdrie\systems\Aviary\Parrot\obj\Debug\Parrot.csprojAssemblyReference.cache
+C:\Users\cdrie\systems\Aviary\Parrot\obj\Debug\Utilities\Theme.g.cs
+C:\Users\cdrie\systems\Aviary\Parrot\obj\Debug\Parrot_MarkupCompile.cache
+C:\Users\cdrie\systems\Aviary\Parrot\obj\Debug\Parrot_MarkupCompile.lref

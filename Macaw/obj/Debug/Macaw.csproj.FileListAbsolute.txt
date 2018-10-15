@@ -123,3 +123,7 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Macaw\bin\Debug\A
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Macaw\bin\Debug\Accord.Math.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Macaw\bin\Debug\Accord.Math.Core.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Macaw\bin\Debug\Accord.Statistics.xml
+C:\Users\cdrie\systems\Aviary\Macaw\obj\Debug\Macaw.csprojAssemblyReference.cache
+C:\Users\cdrie\systems\Aviary\Macaw\obj\Debug\Macaw.Properties.Resources.resources
+C:\Users\cdrie\systems\Aviary\Macaw\obj\Debug\Macaw.csproj.GenerateResource.cache
+C:\Users\cdrie\systems\Aviary\Macaw\obj\Debug\Macaw.csproj.CoreCompileInputs.cache

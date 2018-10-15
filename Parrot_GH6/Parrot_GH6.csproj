@@ -13,6 +13,8 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -44,6 +46,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Rhino Common 6\Eto.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="GH_IO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6a29997d2e6b4f97, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grasshopper.0.9.76\lib\net35\GH_IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Grasshopper, Version=1.0.0.20, Culture=neutral, PublicKeyToken=dda4f5ec2cd80803, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grasshopper.0.9.76\lib\net35\Grasshopper.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialDesignColors, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.1.3\lib\net45\MaterialDesignColors.dll</HintPath>
       <Private>True</Private>
@@ -57,31 +65,63 @@
     <Reference Include="Rhino.UI">
       <HintPath>..\packages\Rhino Common 6\Rhino.UI.dll</HintPath>
     </Reference>
-    <Reference Include="RhinoCommon">
-      <HintPath>..\packages\Rhino Common 6\RhinoCommon.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="RhinoCommon, Version=5.1.30000.16, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\packages\RhinoCommon.5.12.50810.13095\lib\net35\RhinoCommon.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Windows" />
     <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="Grasshopper">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\Rhino 6\Plug-ins\Grasshopper\Grasshopper.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="GH_IO">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\Rhino 6\Plug-ins\Grasshopper\GH_IO.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=3.4.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.4.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.4.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=3.4.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.4.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=3.4.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.4.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Controls.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.Controls.6.6.18313.21330\lib\net40\Xceed.Wpf.Controls.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid, Version=3.4.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.4.0\lib\net40\Xceed.Wpf.DataGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.1.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.DataGrid.ThemePack.1.6.6.18313.21330\lib\net40\Xceed.Wpf.DataGrid.ThemePack.1.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.2.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.DataGrid.ThemePack.2.6.6.18313.21330\lib\net40\Xceed.Wpf.DataGrid.ThemePack.2.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.3.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.DataGrid.ThemePack.3.6.6.18313.21330\lib\net40\Xceed.Wpf.DataGrid.ThemePack.3.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.4.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.DataGrid.ThemePack.4.6.6.18313.21330\lib\net40\Xceed.Wpf.DataGrid.ThemePack.4.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid.ThemePack.5.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.DataGrid.ThemePack.5.6.6.18313.21330\lib\net40\Xceed.Wpf.DataGrid.ThemePack.5.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.DataGrid.6.6.18313.21330\lib\net40\Xceed.Wpf.DataGrid.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.DataGrid.Views3D.v6.6, Version=6.6.18313.21330, Culture=neutral, PublicKeyToken=ba83ff368b7563c6, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xceed.Wpf.DataGrid.Views3D.6.6.18313.21330\lib\net40\Xceed.Wpf.DataGrid.Views3D.v6.6.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=3.4.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.4.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base\pViewport.cs" />
@@ -140,4 +180,13 @@ Erase "$(TargetPath)"</PostBuildEvent>
     </StartArguments>
     <StartAction>Program</StartAction>
   </PropertyGroup>
+  <Import Project="..\packages\RhinoCommon.5.12.50810.13095\build\net35\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.5.12.50810.13095\build\net35\RhinoCommon.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\RhinoCommon.5.12.50810.13095\build\net35\RhinoCommon.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\RhinoCommon.5.12.50810.13095\build\net35\RhinoCommon.targets'))" />
+    <Error Condition="!Exists('..\packages\Grasshopper.0.9.76\build\net35\Grasshopper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grasshopper.0.9.76\build\net35\Grasshopper.targets'))" />
+  </Target>
+  <Import Project="..\packages\Grasshopper.0.9.76\build\net35\Grasshopper.targets" Condition="Exists('..\packages\Grasshopper.0.9.76\build\net35\Grasshopper.targets')" />
 </Project>

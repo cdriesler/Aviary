@@ -198,3 +198,5 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Pollen\bin\Debug\
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Pollen\bin\Debug\Accord.Statistics.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Pollen\bin\Debug\Accord.Math.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Pollen\bin\Debug\Accord.Math.Core.xml
+C:\Users\cdrie\systems\Aviary\Pollen\obj\Debug\Pollen.csprojAssemblyReference.cache
+C:\Users\cdrie\systems\Aviary\Pollen\obj\Debug\Pollen.csproj.CoreCompileInputs.cache

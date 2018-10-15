@@ -90,3 +90,6 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe_GH\bin\Acc
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe_GH\bin\Accord.Statistics.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe_GH\bin\Accord.Math.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe_GH\bin\Accord.Math.Core.xml
+C:\Users\cdrie\systems\Aviary\Hoopoe_GH\obj\Debug64\Hoopoe_GH.Properties.Resources.resources
+C:\Users\cdrie\systems\Aviary\Hoopoe_GH\obj\Debug64\Hoopoe_GH.csproj.GenerateResource.cache
+C:\Users\cdrie\systems\Aviary\Hoopoe_GH\obj\Debug64\Hoopoe_GH.csproj.CoreCompileInputs.cache

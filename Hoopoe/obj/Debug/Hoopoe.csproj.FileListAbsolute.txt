@@ -102,3 +102,5 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe\bin\Debug\
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe\bin\Debug\Accord.Statistics.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe\bin\Debug\Accord.Math.xml
 C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Hoopoe\bin\Debug\Accord.Math.Core.xml
+C:\Users\cdrie\systems\Aviary\Hoopoe\obj\Debug\Hoopoe.csprojAssemblyReference.cache
+C:\Users\cdrie\systems\Aviary\Hoopoe\obj\Debug\Hoopoe.csproj.CoreCompileInputs.cache
