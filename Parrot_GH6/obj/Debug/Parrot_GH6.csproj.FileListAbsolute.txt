@@ -174,3 +174,7 @@ C:\Users\cdrie\systems\Aviary\Parrot_GH6\bin\zh-Hans\Xceed.Wpf.AvalonDock.resour
 C:\Users\cdrie\systems\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.csproj.CopyComplete
 C:\Users\cdrie\systems\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.dll
 C:\Users\cdrie\systems\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.pdb
+C:\Users\cdrie\Desktop\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.csprojAssemblyReference.cache
+C:\Users\cdrie\Desktop\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.Properties.Resources.resources
+C:\Users\cdrie\Desktop\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.csproj.GenerateResource.cache
+C:\Users\cdrie\Desktop\Aviary\Parrot_GH6\obj\Debug\Parrot_GH6.csproj.CoreCompileInputs.cache

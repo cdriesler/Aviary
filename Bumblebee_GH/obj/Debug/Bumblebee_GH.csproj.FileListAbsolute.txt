@@ -15,3 +15,10 @@ C:\Users\cdrie\systems\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.dll
 C:\Users\cdrie\systems\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.pdb
 C:\Users\cdrie\systems\Aviary\Bumblebee_GH\bin\Debug\Bumblebee_GH.dll.config
 C:\Users\cdrie\systems\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.csprojAssemblyReference.cache
+C:\Users\cdrie\Desktop\Aviary\Bumblebee_GH\bin\Debug\Bumblebee_GH.dll.config
+C:\Users\cdrie\Desktop\Aviary\Bumblebee_GH\bin\Debug\Bumblebee_GH.dll
+C:\Users\cdrie\Desktop\Aviary\Bumblebee_GH\bin\Debug\Bumblebee_GH.pdb
+C:\Users\cdrie\Desktop\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.csprojAssemblyReference.cache
+C:\Users\cdrie\Desktop\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.csproj.CoreCompileInputs.cache
+C:\Users\cdrie\Desktop\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.dll
+C:\Users\cdrie\Desktop\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.pdb
