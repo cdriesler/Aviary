@@ -8,3 +8,10 @@ C:\Users\dmans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Bumblebee_GH\bin\
 C:\Users\dmans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.csprojResolveAssemblyReference.cache
 C:\Users\dmans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.dll
 C:\Users\dmans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.pdb
+C:\Users\cdrie\systems\Aviary\Bumblebee_GH\bin\Debug\Bumblebee_GH.dll
+C:\Users\cdrie\systems\Aviary\Bumblebee_GH\bin\Debug\Bumblebee_GH.pdb
+C:\Users\cdrie\systems\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.csproj.CoreCompileInputs.cache
+C:\Users\cdrie\systems\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.dll
+C:\Users\cdrie\systems\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.pdb
+C:\Users\cdrie\systems\Aviary\Bumblebee_GH\bin\Debug\Bumblebee_GH.dll.config
+C:\Users\cdrie\systems\Aviary\Bumblebee_GH\obj\Debug\Bumblebee_GH.csprojAssemblyReference.cache

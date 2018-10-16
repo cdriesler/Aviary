@@ -7,3 +7,11 @@ Bumblebee/obj/Debug/Bumblebee.csproj.FileListAbsolute.txt
 .vs/Aviary/v14/.suo
 .vs/Aviary/v14/.suo
 .vs/Aviary/v14/.suo
+.vs/Aviary/v15
+packages/
+bin/
+obj/
+*/obj
+*/bin
+Debug/
+/Debug

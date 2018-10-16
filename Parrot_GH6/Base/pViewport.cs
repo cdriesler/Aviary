@@ -5,8 +5,9 @@ using System.Windows;
 using System.Windows.Controls;
 
 using Rhino.UI.Controls;
-using Eto.Forms;
+using e = Eto.Forms;
 using Eto.Drawing;
+using Eto.Forms;
 using Wind.Geometry.Vectors;
 
 namespace Parrot.Controls
