@@ -1,7 +1,3 @@
-*.dll
-!CsPotrace.dll
-!WinPotrace32.dll
-!WinPotrace64.dll
 *.pdb
 *.cache
 *.gha
@@ -11,7 +7,8 @@ Bumblebee/obj/Debug/Bumblebee.csproj.FileListAbsolute.txt
 .vs/Aviary/v14/.suo
 .vs/Aviary/v14/.suo
 .vs/Aviary/v15
-packages/
+/packages/*
+!/packages/Potrace-Vectorization.2.0.0/
 bin/
 obj/
 */obj
