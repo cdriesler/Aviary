@@ -90,6 +90,7 @@ C:\Users\cdrie\systems\Aviary\Wind\bin\Debug\Accord.Imaging.xml
 C:\Users\cdrie\systems\Aviary\Wind\bin\Debug\Accord.Math.xml
 C:\Users\cdrie\systems\Aviary\Wind\bin\Debug\Accord.Math.Core.xml
 C:\Users\cdrie\systems\Aviary\Wind\bin\Debug\Accord.Statistics.xml
+C:\Users\cdrie\systems\Aviary\Wind\obj\Debug\Wind.csprojAssemblyReference.cache
 C:\Users\cdrie\systems\Aviary\Wind\obj\Debug\Wind.csproj.CoreCompileInputs.cache
 C:\Users\cdrie\systems\Aviary\Wind\obj\Debug\Wind.csproj.CopyComplete
 C:\Users\cdrie\systems\Aviary\Wind\obj\Debug\Wind.dll

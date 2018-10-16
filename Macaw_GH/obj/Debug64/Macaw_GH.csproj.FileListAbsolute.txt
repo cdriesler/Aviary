@@ -136,3 +136,4 @@ C:\Users\DMans\Dropbox\Interop\Aviary\Aviary\Aviary_Git\Aviary\Macaw_GH\bin\Acco
 C:\Users\cdrie\systems\Aviary\Macaw_GH\obj\Debug64\Macaw_GH.Properties.Resources.resources
 C:\Users\cdrie\systems\Aviary\Macaw_GH\obj\Debug64\Macaw_GH.csproj.GenerateResource.cache
 C:\Users\cdrie\systems\Aviary\Macaw_GH\obj\Debug64\Macaw_GH.csproj.CoreCompileInputs.cache
+C:\Users\cdrie\systems\Aviary\Macaw_GH\obj\Debug64\Macaw_GH.csprojAssemblyReference.cache
