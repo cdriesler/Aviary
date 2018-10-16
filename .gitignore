@@ -1,4 +1,7 @@
 *.dll
+!CsPotrace.dll
+!WinPotrace32.dll
+!WinPotrace64.dll
 *.pdb
 *.cache
 *.gha

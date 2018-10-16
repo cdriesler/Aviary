@@ -85,7 +85,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>Copy "$(ProjectDir)bin\Debug\$(ProjectName).dll" "$(SolutionDir)Aviary\Build\"</PostBuildEvent>
+    <PostBuildEvent>Copy "$(ProjectDir)bin\Debug\$(ProjectName).dll" "$(SolutionDir)Aviary\Build\$(ProjectName).dll"</PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\RhinoCommon.5.12.50810.13095\build\net35\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.5.12.50810.13095\build\net35\RhinoCommon.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

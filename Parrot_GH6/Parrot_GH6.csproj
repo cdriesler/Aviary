@@ -34,23 +34,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Eto, Version=2.4.6787.16451, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
-      <HintPath>..\packages\RhinoCommon.6.7.18210.11281\lib\net45\Eto.dll</HintPath>
+    <Reference Include="Eto">
+      <HintPath>..\packages\Eto.Forms.2.4.0\lib\netstandard1.0\Eto.dll</HintPath>
     </Reference>
-    <Reference Include="Eto.Serialization.Xaml, Version=2.4.6787.16451, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Eto.Serialization.Xaml.2.4.0\lib\netstandard1.0\Eto.Serialization.Xaml.dll</HintPath>
+    <Reference Include="Eto.Wpf, Version=2.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eto.Platform.Wpf.2.4.0\lib\net45\Eto.Wpf.dll</HintPath>
     </Reference>
-    <Reference Include="Eto.WinForms, Version=2.4.6787.16451, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Eto.Platform.Windows.2.4.0\lib\net45\Eto.WinForms.dll</HintPath>
+    <Reference Include="GH_IO, Version=6.8.18240.20050, Culture=neutral, PublicKeyToken=6a29997d2e6b4f97, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grasshopper.6.8.18240.20051\lib\net45\GH_IO.dll</HintPath>
     </Reference>
-    <Reference Include="Eto.Wpf, Version=2.4.6787.16462, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
-      <HintPath>..\packages\RhinoWindows.6.7.18210.11281\lib\net45\Eto.Wpf.dll</HintPath>
-    </Reference>
-    <Reference Include="GH_IO, Version=6.7.18210.11280, Culture=neutral, PublicKeyToken=6a29997d2e6b4f97, processorArchitecture=MSIL">
-      <HintPath>..\packages\Grasshopper.6.7.18210.11281\lib\net45\GH_IO.dll</HintPath>
-    </Reference>
-    <Reference Include="Grasshopper, Version=6.7.18210.11280, Culture=neutral, PublicKeyToken=dda4f5ec2cd80803, processorArchitecture=MSIL">
-      <HintPath>..\packages\Grasshopper.6.7.18210.11281\lib\net45\Grasshopper.dll</HintPath>
+    <Reference Include="Grasshopper, Version=6.8.18240.20050, Culture=neutral, PublicKeyToken=dda4f5ec2cd80803, processorArchitecture=MSIL">
+      <HintPath>..\packages\Grasshopper.6.8.18240.20051\lib\net45\Grasshopper.dll</HintPath>
     </Reference>
     <Reference Include="MaterialDesignColors, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.1.3\lib\net45\MaterialDesignColors.dll</HintPath>
@@ -65,14 +59,14 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="Rhino.UI, Version=6.7.18210.11280, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
-      <HintPath>..\packages\RhinoCommon.6.7.18210.11281\lib\net45\Rhino.UI.dll</HintPath>
+    <Reference Include="Rhino.UI, Version=6.8.18240.20050, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\packages\RhinoCommon.6.8.18240.20051\lib\net45\Rhino.UI.dll</HintPath>
     </Reference>
-    <Reference Include="RhinoCommon, Version=6.7.18210.11280, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
-      <HintPath>..\packages\RhinoCommon.6.7.18210.11281\lib\net45\RhinoCommon.dll</HintPath>
+    <Reference Include="RhinoCommon, Version=6.8.18240.20050, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\packages\RhinoCommon.6.8.18240.20051\lib\net45\RhinoCommon.dll</HintPath>
     </Reference>
-    <Reference Include="RhinoWindows, Version=6.7.18210.11280, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
-      <HintPath>..\packages\RhinoWindows.6.7.18210.11281\lib\net45\RhinoWindows.dll</HintPath>
+    <Reference Include="RhinoWindows, Version=6.8.18240.20050, Culture=neutral, PublicKeyToken=552281e97c755530, processorArchitecture=MSIL">
+      <HintPath>..\packages\RhinoWindows.6.8.18240.20051\lib\net45\RhinoWindows.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -186,15 +180,13 @@ Erase "$(TargetPath)"</PostBuildEvent>
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
+    <Error Condition="!Exists('..\packages\RhinoCommon.6.8.18240.20051\build\net45\RhinoCommon.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\RhinoCommon.6.8.18240.20051\build\net45\RhinoCommon.targets'))" />
+    <Error Condition="!Exists('..\packages\Grasshopper.6.8.18240.20051\build\net45\Grasshopper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grasshopper.6.8.18240.20051\build\net45\Grasshopper.targets'))" />
+    <Error Condition="!Exists('..\packages\RhinoWindows.6.8.18240.20051\build\net45\RhinoWindows.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\RhinoWindows.6.8.18240.20051\build\net45\RhinoWindows.targets'))" />
     <Error Condition="!Exists('..\packages\Eto.Forms.2.4.0\build\Eto.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Eto.Forms.2.4.0\build\Eto.Forms.targets'))" />
-    <Error Condition="!Exists('..\packages\Eto.Serialization.Xaml.2.4.0\build\Eto.Serialization.Xaml.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Eto.Serialization.Xaml.2.4.0\build\Eto.Serialization.Xaml.targets'))" />
-    <Error Condition="!Exists('..\packages\RhinoCommon.6.7.18210.11281\build\net45\RhinoCommon.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\RhinoCommon.6.7.18210.11281\build\net45\RhinoCommon.targets'))" />
-    <Error Condition="!Exists('..\packages\Grasshopper.6.7.18210.11281\build\net45\Grasshopper.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Grasshopper.6.7.18210.11281\build\net45\Grasshopper.targets'))" />
-    <Error Condition="!Exists('..\packages\RhinoWindows.6.7.18210.11281\build\net45\RhinoWindows.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\RhinoWindows.6.7.18210.11281\build\net45\RhinoWindows.targets'))" />
   </Target>
+  <Import Project="..\packages\RhinoCommon.6.8.18240.20051\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.8.18240.20051\build\net45\RhinoCommon.targets')" />
+  <Import Project="..\packages\Grasshopper.6.8.18240.20051\build\net45\Grasshopper.targets" Condition="Exists('..\packages\Grasshopper.6.8.18240.20051\build\net45\Grasshopper.targets')" />
+  <Import Project="..\packages\RhinoWindows.6.8.18240.20051\build\net45\RhinoWindows.targets" Condition="Exists('..\packages\RhinoWindows.6.8.18240.20051\build\net45\RhinoWindows.targets')" />
   <Import Project="..\packages\Eto.Forms.2.4.0\build\Eto.Forms.targets" Condition="Exists('..\packages\Eto.Forms.2.4.0\build\Eto.Forms.targets')" />
-  <Import Project="..\packages\Eto.Serialization.Xaml.2.4.0\build\Eto.Serialization.Xaml.targets" Condition="Exists('..\packages\Eto.Serialization.Xaml.2.4.0\build\Eto.Serialization.Xaml.targets')" />
-  <Import Project="..\packages\RhinoCommon.6.7.18210.11281\build\net45\RhinoCommon.targets" Condition="Exists('..\packages\RhinoCommon.6.7.18210.11281\build\net45\RhinoCommon.targets')" />
-  <Import Project="..\packages\Grasshopper.6.7.18210.11281\build\net45\Grasshopper.targets" Condition="Exists('..\packages\Grasshopper.6.7.18210.11281\build\net45\Grasshopper.targets')" />
-  <Import Project="..\packages\RhinoWindows.6.7.18210.11281\build\net45\RhinoWindows.targets" Condition="Exists('..\packages\RhinoWindows.6.7.18210.11281\build\net45\RhinoWindows.targets')" />
 </Project>

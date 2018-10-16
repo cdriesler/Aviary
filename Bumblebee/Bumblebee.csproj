@@ -60,7 +60,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>Copy "$(ProjectDir)bin\Debug\$(ProjectName).dll" "$(SolutionDir)Aviary\Build\"</PostBuildEvent>
+    <PostBuildEvent>Copy "$(ProjectDir)bin\Debug\$(ProjectName).dll" "$(SolutionDir)Aviary\Build\$(ProjectName).dll"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>
